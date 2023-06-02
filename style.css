@@ -1,0 +1,58 @@
+:root{
+    --primary-color: #C1AE9F; 
+    --secondary-color: #6874E8;
+    --third-color: #392759; 
+}
+
+*{
+    background-color: var(--primary-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h3, p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover{
+    color: var(--third-color);
+}
+
+.header{
+    text-align: center;
+}
+
+.nav{
+    border: solid;
+    border-radius: 15px;
+}
+
+.about-me{
+    border: solid;
+    border-radius: 15px;
+}
+
+.projects{
+    border: solid;
+    border-radius: 15px;
+}
+
+li{
+    padding: 15px;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    text-align: center;
+    border: solid black;
+    border-radius: 15px;
+}
